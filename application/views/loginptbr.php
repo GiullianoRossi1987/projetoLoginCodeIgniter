@@ -58,7 +58,7 @@
                     <br>
                     <div class="btn-group btn-group-inline ">
                         <a href="loginru" role="button" class="btn btn-lg btn-primary"><?=$data['ls_ru'] = $this->lang->line('ls_ru')?></a>
-                        <a href="loginptbr" role="button" class="btn btn-lg btn-primary"><?=$data['ls_br'] = $this->lang->line('ls_br')?></a>
+                        <a href="login" role="button" class="btn btn-lg btn-primary"><?=$data['ls_en'] = $this->lang->line('ls_en')?></a>
                         <a href="loginger" role="button" class="btn btn-lg btn-primary"><?=$data['ls_ger'] = $this->lang->line('ls_ger')?></a>
                     </div>
                 </div>

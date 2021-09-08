@@ -13,7 +13,7 @@
 		<div class="row">
 			<div class="offset-4 col-4">
 				<div class="jumbotron form-login">
-					<h1 class="display-4"><?=$data['title'] = $this->lang->line('title')?></h1>
+					<h1 class="display-5"><?=$data['title'] = $this->lang->line('title')?></h1>
 					<hr class="my-4">
 						<form action="<?=base_url('entrar')?>" method="post">
 						<div class="form-group">
@@ -57,7 +57,7 @@
                     <h5 class="offset-3"><?=$data['ls_title'] = $this->lang->line('ls_title');?></h5>
                     <br>
                     <div class="btn-group btn-group-inline ">
-                        <a href="loginru" role="button" class="btn btn-lg btn-primary"><?=$data['ls_ru'] = $this->lang->line('ls_ru')?></a>
+                        <a href="login" role="button" class="btn btn-lg btn-primary"><?=$data['ls_en'] = $this->lang->line('ls_en')?></a>
                         <a href="loginptbr" role="button" class="btn btn-lg btn-primary"><?=$data['ls_br'] = $this->lang->line('ls_br')?></a>
                         <a href="loginger" role="button" class="btn btn-lg btn-primary"><?=$data['ls_ger'] = $this->lang->line('ls_ger')?></a>
                     </div>

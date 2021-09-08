@@ -57,3 +57,6 @@ $route['inserirEndereco']['post'] = 'usuario/cadastrarEndereco';
 $route['entrar']['post'] = 'usuario/entrar';
 $route['sair'] = 'usuario/sair';
 $route['lista'] = 'usuario/listarEndereco';
+$route["loginptbr"] = "loginPtbr";
+$route["loginger"] = "loginGer";
+$route["loginru"] = "loginRu";
